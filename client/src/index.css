@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Calibri, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  color: #0f2038;
+  background: #f7f4ee;
+}
+
+.sample-tag {
+  background: #c49a44;
+  color: #0f2038;
+  font-weight: 700;
+  padding: 8px 12px;
+  margin: 0;
+}
+
+.shell-header {
+  background: #0f2038;
+  color: white;
+  padding: 16px 20px 8px;
+}
+
+.shell-header h1 {
+  margin: 0 0 4px;
+  font-size: 1.6rem;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #f4d58d;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.sample-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 20px 16px;
+  background: #0f2038;
+}
+
+.sample-nav a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #c49a44;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.sample-nav a.active {
+  background: #c49a44;
+  color: #0f2038;
+  font-weight: 700;
+}
+
+main {
+  padding: 16px 20px 40px;
+  max-width: 880px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #d9d0c1;
+  border-left: 4px solid #0f2038;
+  padding: 12px 14px;
+  margin: 10px 0;
+}
+
+.card h2 {
+  margin: 0 0 4px;
+  font-size: 1.15rem;
+}
+
+.badge {
+  display: inline-block;
+  background: #e7f6f3;
+  color: #0f2038;
+  font-size: 0.85rem;
+  padding: 2px 8px;
+  margin: 0 0 6px;
+}
+
+.card-actions {
+  margin-top: 8px;
+}
+
+button {
+  background: #0f2038;
+  color: white;
+  border: 0;
+  padding: 8px 12px;
+  margin: 4px 6px 4px 0;
+  cursor: pointer;
+  font: inherit;
+}
+
+button.secondary {
+  background: #64748b;
+}
+
+button.danger {
+  background: #9b1c1c;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  padding: 8px;
+  margin-top: 4px;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+.errors {
+  color: #9b1c1c;
+  padding-left: 18px;
+}
+
+.success {
+  color: #0f6b4c;
+  font-weight: 700;
+}
+
+.status {
+  color: #475569;
+}
+
+.steps {
+  padding-left: 1.2rem;
+}
